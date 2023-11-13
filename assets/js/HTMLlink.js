@@ -13,4 +13,9 @@ console.warn(HiddenElement.innerText);
 
 
 
+
+var textContainer = document.getElementById('Jack');
+ textContainer.innerHTML = 'hej fra et script tag';
+
+
 console.groupEnd()
